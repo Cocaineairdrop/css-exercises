@@ -12,7 +12,7 @@ a font size of 24px, and bold */
 
 
 /*p element are all odds*/
-p {
+.odd{
     background-color: #ffb6c1;
     font-family: Verdana, DejaVu Sans, sans-serif;
 }
@@ -22,7 +22,7 @@ p {
     font-size: 36px;
 }
 
-#numthree {
+.adjust-font-size {
     font-size: 24px;
 }
 
