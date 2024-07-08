@@ -1,0 +1,14 @@
+.onebutt{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.twobutt{
+    background-color: yellow;
+}
+
+.onebutt,
+.twobutt {
+    font-size: 28px;
+    font-family: helvetica, 'times new roman', sans-serif;
+}
