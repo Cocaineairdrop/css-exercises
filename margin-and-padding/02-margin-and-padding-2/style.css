@@ -7,21 +7,40 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* Added padding 8px for 
+  edge of card and blue contents*/
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /* Added 16px font */
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  /* Added padding to the blue 
+  part of the card and margin*/
+  padding: 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  /* Added text-align and padding*/
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  /* Added display, margin auto
+  and padding*/
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
 }
