@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/*SOLUTION*/
+
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 0px 0px 32px 0px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
