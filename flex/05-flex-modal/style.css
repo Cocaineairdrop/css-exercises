@@ -33,6 +33,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .close-button {
@@ -71,15 +72,38 @@ button.cancel {
 
 /**SOLUTION**/
 
-.modal {
-  padding: 20px;
-}
-
-.content {
-  display: flex;
-  
-}
-
 .icon {
-  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0px 15px 15px 0px;
+}
+
+.continue, .cancel {
+  margin: 2px;
+}
+
+.text {
+  margin-bottom: 15px;
+}
+
+.modal {
+  padding: 15px;
+  display: flex;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.topheaderX {
+  display: flex;
+  width:100%;
+  justify-content:space-between;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
