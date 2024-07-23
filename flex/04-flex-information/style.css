@@ -31,7 +31,7 @@ img {
 .title{
   display: flex;
   justify-content: center;
-  padding: 0px 0px 32px 0px;
+  margin: 0px 0px 32px 0px;
 }
 
 .plants {
