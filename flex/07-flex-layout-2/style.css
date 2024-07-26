@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  flex-grow: 1;
+  flex: 1;
 }
 .middlecontents {
   display: flex;
@@ -62,15 +62,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-grow: 1;
-  flex-basis: 50%;
+  flex-basis: 0;
   flex-wrap: wrap;  
   padding: 48px;
 }
 .card {
   padding: 10px;
-  min-width: 20%;
-  max-width: 29%;
+  min-width: none;
+  max-width: 40%;
   display: flex;
+  align-content: stretch;
   margin: 10px;
 }
 
